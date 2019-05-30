@@ -1,0 +1,4 @@
+#!/bin/bash
+
+set -e
+sudo dpkg -i --force-architecture /home/sicp/stk_4.0.1-1_amd64.deb
