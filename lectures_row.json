@@ -1,18 +1,25 @@
 {
+  "book": "https://web.mit.edu/alexmv/6.037/sicp.pdf",
   "cs61a": [
     {
       "week": 1,
-      "labs": [ "nodate-labs.pdf#1", "nodate-labs.pdf#2"],
-      "homework": ["nodate-hw.pdf#1", "nodate-hw.pdf#2"],
+      "labs": [
+        "http://wla.berkeley.edu/~cs61a/reader/nodate-labs.pdf#page=1",
+        "http://wla.berkeley.edu/~cs61a/reader/nodate-labs.pdf#page=2"
+      ],
+      "homework": [
+        "http://wla.berkeley.edu/~cs61a/reader/nodate-hw.pdf#page=1",
+        "http://wla.berkeley.edu/~cs61a/reader/nodate-hw.pdf#page=2"
+      ],
       "reading": "Abelson & Sussman, Section 1.1 (pages 1-31)",
       "videos": [
         {
-          "title": "L 1: functional programming 1",
+          "title": "functional programming 1",
           "url": "https://archive.org/details/ucberkeley_webcast_l28HAzKy0N8",
           "lecture": "1"
         },
         {
-          "title": "L 2: functional programming 2",
+          "title": "functional programming 2",
           "url": "https://archive.org/details/ucberkeley_webcast_TTK2lZoWbPQ",
           "lecture": "2"
         }
@@ -20,19 +27,25 @@
     },
     {
       "week": 2,
-      "labs": [ "nodate-labs.pdf#3", "nodate-labs.pdf#4"],
-      "homework": ["nodate-hw.pdf#3", "nodate-hw.pdf#4"],
+      "labs": [
+        "http://wla.berkeley.edu/~cs61a/reader/nodate-labs.pdf#page=3",
+        "http://wla.berkeley.edu/~cs61a/reader/nodate-labs.pdf#page=4"
+      ],
+      "homework": [
+        "http://wla.berkeley.edu/~cs61a/reader/nodate-hw.pdf#page=3",
+        "http://wla.berkeley.edu/~cs61a/reader/nodate-hw.pdf#page=4"
+      ],
       "topic": "Higher-order procedures",
       "reeding": "Abelson & Susman, Section 1.3",
       "note": "Note that we are skipping 1.2; we’ll get to it later. Because of this, never mind for now the stuff about iterative versus recursive processes in 1.3 and in the exercises from that section",
       "content": [
         {
-          "title": "L 3: higher-order procedures 1",
+          "title": "higher-order procedures 1",
           "url": "https://archive.org/details/ucberkeley_webcast_ogIGxEzvnSE",
           "lecture": "3"
         },
         {
-          "title": "L 4: higher-order procedures 2",
+          "title": "higher-order procedures 2",
           "url": "https://archive.org/details/ucberkeley_webcast_ZvH3wF2qg7Q",
           "lecture": "4"
         }
@@ -40,7 +53,7 @@
     },
     {
       "week": 3,
-      "labs": [ "nodate-labs.pdf#5"],
+      "labs": ["nodate-labs.pdf#page=5"],
       "homework": ["nodate-hw.pdf#5", "nodate-hw.pdf#6"],
       "notes": [14, 17],
       "note": "This week is about efficiency. Mostly in 61A we don’t care about that; it becomes a focus of attention in 61B",
@@ -48,22 +61,22 @@
       "reading": "Abelson & Sussman, Section 1.2 throue 1.2.4 (pages 31 - 72)",
       "videos": [
         {
-          "title": "L 5: user interface -Alan Kay-",
+          "title": "user interface -Alan Kay-",
           "url": "https://archive.org/details/ucberkeley_webcast_dC4YGxzoAXk",
           "lecture": "5"
         },
         {
-          "title": "L 6: user interface -Alan Kay-",
+          "title": "user interface -Alan Kay-",
           "url": "https://archive.org/details/ucberkeley_webcast_qxDGE1-S_LE",
           "lecture": "6"
         },
         {
-          "title": "L 7: orders of growth",
+          "title": "orders of growth",
           "url": "https://archive.org/details/ucberkeley_webcast_32L5j10rrK0",
           "lecture": "7"
         },
         {
-          "title": "L 8: recursion and iteration",
+          "title": "recursion and iteration",
           "url": "https://archive.org/details/ucberkeley_webcast_0G3tNuBBO5I",
           "lecture": "8"
         }
@@ -71,7 +84,7 @@
     },
     {
       "week": 4,
-      "labs": [ "nodate-labs.pdf#6"],
+      "labs": ["nodate-labs.pdf#6"],
       "homework": ["nodate-hw.pdf#7"],
       "reading": "Abelson & Sussman, Section 2.1 and 2.2.1 (pages 79-106)",
       "bigIdeas": "data abstraction, abstraction barrier",
@@ -80,12 +93,12 @@
       "notes": [18, 29],
       "videos": [
         {
-          "title": "L 9: data abstraction",
+          "title": "data abstraction",
           "url": "https://archive.org/details/ucberkeley_webcast_Oy36XpGVyjA",
           "lecture": "9"
         },
         {
-          "title": "L 10: sequences",
+          "title": "sequences",
           "url": "https://archive.org/details/ucberkeley_webcast__qGeRWplPgc",
           "lecture": "10"
         }
@@ -93,7 +106,7 @@
     },
     {
       "week": 5,
-      "labs": [ "nodate-labs.pdf#7"],
+      "labs": ["nodate-labs.pdf#7"],
       "homework": ["nodate-hw.pdf#8", "nodate-hw.pdf#9"],
       "reading": "Abelson & Sussman, Section 2.2.2–2.2.3, 2.3.1, 2.3.3",
       "topic": "Hierarchical data/Scheme interpreter",
@@ -101,22 +114,22 @@
       "notes": [30, 41],
       "videos": [
         {
-          "title": "L 11: Example: calculator",
+          "title": "Example: calculator",
           "url": "https://archive.org/details/ucberkeley_webcast_nzMPF59Ackg",
           "lecture": "11"
         },
         {
-          "title": "L 12: hierarchical data",
+          "title": "hierarchical data",
           "url": "https://archive.org/details/ucberkeley_webcast_pSuEz5ZCVAg",
           "lecture": "12"
         },
         {
-          "title": "L 13: hierarchical data",
+          "title": "hierarchical data",
           "url": "https://archive.org/details/ucberkeley_webcast_kbqJ3UGPgOc",
           "lecture": "13"
         },
         {
-          "title": "L 14: Example: Scheme-1 interpr",
+          "title": "Example: Scheme-1 interpr",
           "url": "https://archive.org/details/ucberkeley_webcast_3FjDrWv00Hc",
           "lecture": "14"
         }
@@ -124,25 +137,25 @@
     },
     {
       "week": 6,
-      "labs": [ "nodate-labs.pdf#8"],
+      "labs": ["nodate-labs.pdf#8"],
       "homework": ["nodate-hw.pdf#10", "nodate-hw.pdf#11"],
       "reading": "Abelson & Sussman, Sections 2.4 through 2.5.2 (pages 169–200)",
       "topic": "Generic operators",
       "note": "The overall problem we’re addressing this week is to control the complexity of large systems with many small procedures that handle several types of data. We are building toward the idea of object-oriented programming, which many people see as the ultimate solution to this problem, and which we discuss for two weeks starting next week.",
       "bigIdeas": [
-        "tagged data",
+        "type tagged data",
         "data-directed programing",
         "message passing"
       ],
       "notes": [42, 45],
       "videos": [
         {
-          "title": "L 16: generic operators",
+          "title": "generic operators",
           "url": "https://archive.org/details/ucberkeley_webcast_rz_XpDhDtFI",
           "lecture": "16"
         },
         {
-          "title": "L 17: generic operators",
+          "title": "generic operators",
           "url": "https://archive.org/details/ucberkeley_webcast_8HDIqZ2ZqKI",
           "lecture": "17"
         }
@@ -150,7 +163,7 @@
     },
     {
       "week": 7,
-      "labs": [ "nodate-labs.pdf#9"],
+      "labs": ["nodate-labs.pdf#9"],
       "homework": ["nodate-hw.pdf#12", "nodate-hw.pdf#13", "nodate-hw.pdf#14"],
       "reading": "OOP Above-the-line notes in course reader",
       "topic": "Object-oriented programming",
@@ -158,17 +171,17 @@
       "note": "Midterm 2 is this week.",
       "videos": [
         {
-          "title": "L 18: object-oriented programmi",
+          "title": "object-oriented programmi",
           "url": "https://archive.org/details/ucberkeley_webcast_jq1v8YUftxE",
           "lecture": "18"
         },
         {
-          "title": "L 19: object oriented programm",
+          "title": "object oriented programm",
           "url": "https://archive.org/details/ucberkeley_webcast_S9mGKy3Dzqw",
           "lecture": "19"
         },
         {
-          "title": "L 20: object-oriented programmi",
+          "title": "object-oriented programmi",
           "url": "https://archive.org/details/ucberkeley_webcast_AYoW8-L2dTQ",
           "lecture": "20"
         }
@@ -176,24 +189,29 @@
     },
     {
       "week": 8,
-      "labs": [ "nodate-labs.pdf#10", "nodate-labs.pdf#11", "nodate-labs.pdf#12","nodate-labs.pdf#13"],
+      "labs": [
+        "nodate-labs.pdf#10",
+        "nodate-labs.pdf#11",
+        "nodate-labs.pdf#12",
+        "nodate-labs.pdf#13"
+      ],
       "homework": ["nodate-hw.pdf#15"],
       "reading": "Abelson & Sussman, Section 3.1, 3.2; OOP below the line",
       "topic": "Local state variables, environments",
       "notes": [50, 55],
       "videos": [
         {
-          "title": "L 21: assignment and state",
+          "title": "assignment and state",
           "url": "https://archive.org/details/ucberkeley_webcast_crlcqL7lKME",
           "lecture": "21"
         },
         {
-          "title": "L 22: environments",
+          "title": "environments",
           "url": "https://archive.org/details/ucberkeley_webcast_uxvRoOV9nOk",
           "lecture": "22"
         },
         {
-          "title": "L 23: environments",
+          "title": "environments",
           "url": "https://archive.org/details/ucberkeley_webcast_jmDguUbxOns",
           "lecture": "23"
         }
@@ -201,24 +219,24 @@
     },
     {
       "week": 9,
-      "labs": [ "nodate-labs.pdf#14"],
-      "homework": ["nodate-hw.pdf#16","nodate-hw.pdf#17"],
+      "labs": ["nodate-labs.pdf#14"],
+      "homework": ["nodate-hw.pdf#16", "nodate-hw.pdf#17"],
       "reading": "Abelson & Sussman, Section 3.3.1–3",
       "topic": "Mutable data, queues, tables",
       "notes": [56, 64],
       "videos": [
         {
-          "title": "L 24: mutable data",
+          "title": "mutable data",
           "url": "https://archive.org/details/ucberkeley_webcast_OCocDioUZOo",
           "lecture": "24"
         },
         {
-          "title": "L 25: mutable data",
+          "title": "mutable data",
           "url": "https://archive.org/details/ucberkeley_webcast_YgUZP1YbHsM",
           "lecture": "25"
         },
         {
-          "title": "L 26: vectors",
+          "title": "vectors",
           "url": "https://archive.org/details/ucberkeley_webcast_vV7gargdGxU",
           "lecture": "26"
         }
@@ -226,24 +244,24 @@
     },
     {
       "week": 10,
-      "labs": [ "nodate-labs.pdf#15"],
+      "labs": ["nodate-labs.pdf#15"],
       "homework": ["nodate-hw.pdf#18"],
       "reading": "Abelson & Sussman, Section 3.4",
       "topic": "Client/server paradigm, Concurrency",
       "notes": [65, 73],
       "videos": [
         {
-          "title": "L 30: client-server programming",
+          "title": "client-server programming",
           "url": "https://archive.org/details/ucberkeley_webcast_Lr4zVJPpMrM",
           "lecture": "30"
         },
         {
-          "title": "L 31: concurrency",
+          "title": "concurrency",
           "url": "https://archive.org/details/ucberkeley_webcast_tfTD0B8dX7I",
           "lecture": "31"
         },
         {
-          "title": "L 32: concurrency",
+          "title": "concurrency",
           "url": "https://archive.org/details/ucberkeley_webcast_a_qhlzmXqAo",
           "lecture": "32"
         }
@@ -251,26 +269,25 @@
     },
     {
       "week": 11,
-      "labs": [ "nodate-labs.pdf#16"],
+      "labs": ["nodate-labs.pdf#16"],
       "homework": ["nodate-hw.pdf#19"],
       "reading": "Abelson & Sussman, Section 3.5.1–3, 3.5.5",
       "topic": "Streams",
       "notes": [74, 77],
       "videos": [
         {
-          "title": "L 33: streams",
+          "title": "streams",
           "url": "https://archive.org/details/ucberkeley_webcast_LLl89UwSflo",
           "lecture": "33"
         },
         {
-          "title": "L 34: streams",
+          "title": "streams",
           "url": "https://archive.org/details/ucberkeley_webcast_mtl0z0HgRTM",
           "lecture": "34"
         },
-
         {
           "//": "Not sure about this one",
-          "title": "L 35: Therac-25",
+          "title": "Therac-25",
           "url": "https://archive.org/details/ucberkeley_webcast_nxX-aAvZbmM",
           "lecture": "35"
         }
@@ -278,7 +295,7 @@
     },
     {
       "week": 12,
-      "labs": [ "nodate-labs.pdf#17","nodate-labs.pdf#18"],
+      "labs": ["nodate-labs.pdf#17", "nodate-labs.pdf#18"],
       "homework": ["nodate-hw.pdf#20"],
       "reading": "Abelson & Sussman, Section 4.1",
       "topic": "Metacircular evaluator",
@@ -287,23 +304,23 @@
       "notes": [78, 87],
       "videos": [
         {
-          "title": "L 36: metacircular evaluator -",
+          "title": "metacircular evaluator -",
           "url": "https://archive.org/details/ucberkeley_webcast_E8ZyYL1qWWY",
           "lecture": "36"
         },
         {
-          "title": "L 37: metacircular evaluator -",
+          "title": "metacircular evaluator -",
           "url": "https://archive.org/details/ucberkeley_webcast_0SbpbHiyyEU",
           "lecture": "37"
         },
 
         {
-          "title": "L 38: mapreduce",
+          "title": "mapreduce",
           "url": "https://archive.org/details/ucberkeley_webcast_OVbHFr6SG_8",
           "lecture": "38"
         },
         {
-          "title": "L 39: mapreduce",
+          "title": "mapreduce",
           "url": "https://archive.org/details/ucberkeley_webcast_tlABAGE-Tvc",
           "lecture": "39"
         }
@@ -311,15 +328,19 @@
     },
     {
       "week": 13,
-      "labs": [ "nodate-labs.pdf#19","nodate-labs.pdf#20", "nodate-labs.pdf#21"],
-      "homework": ["nodate-hw.pdf#21","nodate-hw.pdf#22"],
+      "labs": [
+        "nodate-labs.pdf#19",
+        "nodate-labs.pdf#20",
+        "nodate-labs.pdf#21"
+      ],
+      "homework": ["nodate-hw.pdf#21", "nodate-hw.pdf#22"],
       "reading": "i dont know",
       "topic": "Analyzing evaluator",
       "note": "To work with the ideas in this section you should first (load \"~cs61a/lib/analyze.scm\")",
       "notes": [88, 92],
       "videos": [
         {
-          "title": "L 40: analyzing evaluator",
+          "title": "analyzing evaluator",
           "url": "https://archive.org/details/ucberkeley_webcast_S9VoxtdsRyA",
           "lecture": "40"
         }
@@ -327,14 +348,14 @@
     },
     {
       "week": 14,
-      "labs": [ "nodate-labs.pdf#22"],
+      "labs": ["nodate-labs.pdf#22"],
       "reading": "Abelson & Sussman, Section 4.2, 4.3",
       "topic": "Lazy evaluator, Nondeterministic evaluator",
       "note": "To load the lazy metacircular evaluator, say (load \"~cs61a/lib/lazy.scm)",
       "notes": [93, 101],
       "videos": [
         {
-          "title": "L 41: lazy evaluator",
+          "title": "lazy evaluator",
           "url": "https://archive.org/details/ucberkeley_webcast_WJsgTZsFE3M",
           "lecture": "41"
         }
@@ -342,20 +363,20 @@
     },
     {
       "week": 15,
-      "labs": [ "nodate-labs.pdf#23"],
-      "homework": ["nodate-hw.pdf#24","nodate-hw.pdf#25"],
+      "labs": ["nodate-labs.pdf#23"],
+      "homework": ["nodate-hw.pdf#24", "nodate-hw.pdf#25"],
       "reading": "Abelson & Sussman, Section 4.4.1–3",
       "topic": "Logic programming",
       "bigIdeas": ["logic programming or declarative programming"],
       "notes": [102, 106],
       "videos": [
         {
-          "title": "L 42: logic programming",
+          "title": "logic programming",
           "url": "https://archive.org/details/ucberkeley_webcast_JIMS_mspmug",
           "lecture": "42"
         },
         {
-          "title": "L 43: logic programming",
+          "title": "logic programming",
           "url": "https://archive.org/details/ucberkeley_webcast_i5XtLVwTcZY",
           "lecture": "43"
         }
@@ -368,7 +389,7 @@
       "notes": [107],
       "videos": [
         {
-          "title": "L 44: Review",
+          "title": "Review",
           "url": "https://archive.org/details/ucberkeley_webcast_zWiQru4tn-o",
           "lecture": "44"
         }
