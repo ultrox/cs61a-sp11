@@ -3,6 +3,7 @@
   "cs61a": [
     {
       "week": 1,
+      "topic": "Functional programing",
       "labs": [
         "http://wla.berkeley.edu/~cs61a/reader/nodate-labs.pdf#page=1",
         "http://wla.berkeley.edu/~cs61a/reader/nodate-labs.pdf#page=2"
