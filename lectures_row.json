@@ -4,14 +4,9 @@
     {
       "week": 1,
       "topic": "Functional programing",
-      "labs": [
-        "http://wla.berkeley.edu/~cs61a/reader/nodate-labs.pdf#page=1",
-        "http://wla.berkeley.edu/~cs61a/reader/nodate-labs.pdf#page=2"
-      ],
-      "homework": [
-        "http://wla.berkeley.edu/~cs61a/reader/nodate-hw.pdf#page=1",
-        "http://wla.berkeley.edu/~cs61a/reader/nodate-hw.pdf#page=2"
-      ],
+      "labs": ["nodate-labs.pdf#page=1", "nodate-labs.pdf#page=2"],
+      "homework": ["nodate-hw.pdf#page=1", "nodate-hw.pdf#page=2"],
+      "worksheets": ["worksheets/w1/ws1.pdf", "worksheets/w1/ws1_sol.pdf"],
       "reading": "Abelson & Sussman, Section 1.1 (pages 1-31)",
       "videos": [
         {
@@ -26,18 +21,14 @@
         }
       ]
     },
+
     {
       "week": 2,
-      "labs": [
-        "http://wla.berkeley.edu/~cs61a/reader/nodate-labs.pdf#page=3",
-        "http://wla.berkeley.edu/~cs61a/reader/nodate-labs.pdf#page=4"
-      ],
-      "homework": [
-        "http://wla.berkeley.edu/~cs61a/reader/nodate-hw.pdf#page=3",
-        "http://wla.berkeley.edu/~cs61a/reader/nodate-hw.pdf#page=4"
-      ],
+      "labs": ["nodate-labs.pdf#page=3", "nodate-labs.pdf#page=4"],
+      "homework": ["nodate-hw.pdf#page=3", "nodate-hw.pdf#page=4"],
       "topic": "Higher-order procedures",
-      "reeding": "Abelson & Susman, Section 1.3",
+      "worksheets": ["worksheets/w2/ws2.pdf", "worksheets/w2/ws2_sol.pdf"],
+      "reading": "Abelson & Susman, Section 1.3",
       "note": "Note that we are skipping 1.2; we’ll get to it later. Because of this, never mind for now the stuff about iterative versus recursive processes in 1.3 and in the exercises from that section",
       "content": [
         {
@@ -52,6 +43,7 @@
         }
       ]
     },
+
     {
       "week": 3,
       "labs": ["nodate-labs.pdf#page=5"],
@@ -59,6 +51,7 @@
       "notes": [14, 17],
       "note": "This week is about efficiency. Mostly in 61A we don’t care about that; it becomes a focus of attention in 61B",
       "topic": "Recursion & Iteration",
+      "worksheets": ["worksheets/w3/ws3.pdf", "worksheets/w3/ws3_sol.pdf"],
       "reading": "Abelson & Sussman, Section 1.2 throue 1.2.4 (pages 31 - 72)",
       "videos": [
         {
@@ -83,10 +76,12 @@
         }
       ]
     },
+
     {
       "week": 4,
       "labs": ["nodate-labs.pdf#6"],
       "homework": ["nodate-hw.pdf#7"],
+      "worksheets": ["worksheets/w4/ws4.pdf", "worksheets/w4/ws4_sol.pdf"],
       "reading": "Abelson & Sussman, Section 2.1 and 2.2.1 (pages 79-106)",
       "bigIdeas": "data abstraction, abstraction barrier",
       "topic": "Data abstraction, sequences",
@@ -105,10 +100,12 @@
         }
       ]
     },
+
     {
       "week": 5,
       "labs": ["nodate-labs.pdf#7"],
       "homework": ["nodate-hw.pdf#8", "nodate-hw.pdf#9"],
+      "worksheets": ["worksheets/w5/ws5.pdf", "worksheets/w5/ws5_sol.pdf"],
       "reading": "Abelson & Sussman, Section 2.2.2–2.2.3, 2.3.1, 2.3.3",
       "topic": "Hierarchical data/Scheme interpreter",
       "note": "Midterm 1 is this week",
@@ -136,10 +133,12 @@
         }
       ]
     },
+
     {
       "week": 6,
       "labs": ["nodate-labs.pdf#8"],
       "homework": ["nodate-hw.pdf#10", "nodate-hw.pdf#11"],
+      "worksheets": ["worksheets/w5/ws5.pdf", "worksheets/w5/ws5_sol.pdf"],
       "reading": "Abelson & Sussman, Sections 2.4 through 2.5.2 (pages 169–200)",
       "topic": "Generic operators",
       "note": "The overall problem we’re addressing this week is to control the complexity of large systems with many small procedures that handle several types of data. We are building toward the idea of object-oriented programming, which many people see as the ultimate solution to this problem, and which we discuss for two weeks starting next week.",
@@ -162,10 +161,12 @@
         }
       ]
     },
+
     {
       "week": 7,
       "labs": ["nodate-labs.pdf#9"],
       "homework": ["nodate-hw.pdf#12", "nodate-hw.pdf#13", "nodate-hw.pdf#14"],
+      "worksheets": ["worksheets/w7/ws7.pdf", "worksheets/w7/ws7_sol.pdf"],
       "reading": "OOP Above-the-line notes in course reader",
       "topic": "Object-oriented programming",
       "notes": [46, 49],
@@ -188,6 +189,7 @@
         }
       ]
     },
+
     {
       "week": 8,
       "labs": [
@@ -197,6 +199,7 @@
         "nodate-labs.pdf#13"
       ],
       "homework": ["nodate-hw.pdf#15"],
+      "worksheets": ["worksheets/w8/ws8.pdf", "worksheets/w8/ws8_sol.pdf"],
       "reading": "Abelson & Sussman, Section 3.1, 3.2; OOP below the line",
       "topic": "Local state variables, environments",
       "notes": [50, 55],
@@ -218,10 +221,12 @@
         }
       ]
     },
+
     {
       "week": 9,
       "labs": ["nodate-labs.pdf#14"],
       "homework": ["nodate-hw.pdf#16", "nodate-hw.pdf#17"],
+      "worksheets": ["worksheets/w9/ws9.pdf", "worksheets/w9/ws9_sol.pdf"],
       "reading": "Abelson & Sussman, Section 3.3.1–3",
       "topic": "Mutable data, queues, tables",
       "notes": [56, 64],
@@ -243,10 +248,12 @@
         }
       ]
     },
+
     {
       "week": 10,
       "labs": ["nodate-labs.pdf#15"],
       "homework": ["nodate-hw.pdf#18"],
+      "worksheets": ["worksheets/w10/ws10.pdf", "worksheets/w10/ws10_sol.pdf"],
       "reading": "Abelson & Sussman, Section 3.4",
       "topic": "Client/server paradigm, Concurrency",
       "notes": [65, 73],
@@ -268,10 +275,12 @@
         }
       ]
     },
+
     {
       "week": 11,
       "labs": ["nodate-labs.pdf#16"],
       "homework": ["nodate-hw.pdf#19"],
+      "worksheets": ["worksheets/w11/ws11.pdf", "worksheets/w11/ws11_sol.pdf"],
       "reading": "Abelson & Sussman, Section 3.5.1–3, 3.5.5",
       "topic": "Streams",
       "notes": [74, 77],
@@ -294,10 +303,12 @@
         }
       ]
     },
+
     {
       "week": 12,
       "labs": ["nodate-labs.pdf#17", "nodate-labs.pdf#18"],
       "homework": ["nodate-hw.pdf#20"],
+      "worksheets": ["worksheets/w12/ws12.pdf", "worksheets/w12/ws12_sol.pdf"],
       "reading": "Abelson & Sussman, Section 4.1",
       "topic": "Metacircular evaluator",
       "note": "Midterm 3 is this week.",
@@ -314,7 +325,6 @@
           "url": "https://archive.org/details/ucberkeley_webcast_0SbpbHiyyEU",
           "lecture": "37"
         },
-
         {
           "title": "mapreduce",
           "url": "https://archive.org/details/ucberkeley_webcast_OVbHFr6SG_8",
@@ -327,6 +337,7 @@
         }
       ]
     },
+
     {
       "week": 13,
       "labs": [
@@ -335,6 +346,7 @@
         "nodate-labs.pdf#21"
       ],
       "homework": ["nodate-hw.pdf#21", "nodate-hw.pdf#22"],
+      "worksheets": ["worksheets/w13/ws13.pdf", "worksheets/w13/ws13_sol.pdf"],
       "reading": "i dont know",
       "topic": "Analyzing evaluator",
       "note": "To work with the ideas in this section you should first (load \"~cs61a/lib/analyze.scm\")",
@@ -347,9 +359,11 @@
         }
       ]
     },
+
     {
       "week": 14,
       "labs": ["nodate-labs.pdf#22"],
+      "worksheets": ["worksheets/w14/ws14.pdf", "worksheets/w14/ws14_sol.pdf"],
       "reading": "Abelson & Sussman, Section 4.2, 4.3",
       "topic": "Lazy evaluator, Nondeterministic evaluator",
       "note": "To load the lazy metacircular evaluator, say (load \"~cs61a/lib/lazy.scm)",
@@ -362,10 +376,12 @@
         }
       ]
     },
+
     {
       "week": 15,
       "labs": ["nodate-labs.pdf#23"],
       "homework": ["nodate-hw.pdf#24", "nodate-hw.pdf#25"],
+      "worksheets": ["worksheets/w15/ws15.pdf", "worksheets/w15/ws15_sol.pdf"],
       "reading": "Abelson & Sussman, Section 4.4.1–3",
       "topic": "Logic programming",
       "bigIdeas": ["logic programming or declarative programming"],
@@ -383,6 +399,7 @@
         }
       ]
     },
+
     {
       "week": 16,
       "reading": "No new reading; study for the final",
