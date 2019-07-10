@@ -1,0 +1,16 @@
+mv   dis002_racket                             w002_racket
+mv   dis003_recursion                          w003_recursion
+mv   dis01_racket_basic_evaluation_recursion   w1
+mv   dis02_lambdas_and_hof                     w2
+mv   dis03_recursion_iter_and_efficiency       w3
+mv   dis04_data_abstractions_and_sequences     w4
+mv   dis05_hierarchical_data                   w5
+mv   dis06_generic_operators                   w6
+mv   dis07_oop                                 w7
+mv   dis08_assignment_state_and_env            w8
+mv   dis09_mutable_data_and_vectors            w9
+mv   dis14_concurrency_and_mapreduce           w10
+mv   dis10_streams                             w11
+mv   dis11_metacircular_evaluator              w12
+mv   dis12_lazy_eval_and_analyzing_eval        w13w14
+mv   dis13_logical_programing                  w15
