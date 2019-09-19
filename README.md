@@ -43,6 +43,9 @@ Discussions
 ### Resources (obj.rkt) is here
 http://inst.eecs.berkeley.edu/~cs61as/library/
 
+### Code examples from Lecture
+http://wla.berkeley.edu/~cs61a/sp09/lectures/
+
 [https://edge.edx.org/](https://edge.edx.org/courses/uc-berkeley/cs61as-1x/SICP/course/)
 
 
