@@ -92,6 +92,10 @@
           "title": "data abstraction",
           "url": "https://archive.org/details/ucberkeley_webcast_Oy36XpGVyjA",
           "lecture": "9"
+          "code": [
+          "http://wla.berkeley.edu/~cs61a/sp09/lectures/2.1/total.scm",
+          "http://wla.berkeley.edu/~cs61a/sp09/lectures/2.1/cons.scm",
+          ]
         },
         {
           "title": "sequences",
